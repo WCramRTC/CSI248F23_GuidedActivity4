@@ -17,7 +17,7 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 5. Open the terminal in Visual Studio Code by hitting ctrl + \` or cmd + \` on mac.
 6. Create a new React project in the current directory using vite
-7. Name the project resume
+7. Name the project citylist
 8. Select React as the framework
 9. Select JavaScript as the variant
 
