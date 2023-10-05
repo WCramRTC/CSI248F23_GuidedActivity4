@@ -21,6 +21,12 @@ This repository is a part of CSI-248 at Renton Technical College.
 8. Select React as the framework
 9. Select JavaScript as the variant
 
+## Creating a City List App
+
+1. Included in the repository is a cities.js file. You may either paste this into App.jsx or move this file into the project and import it into App.jsx
+2. We are going to create seperate pages that access this cities.js file by using context.
+3. We will be routing to the seperate pages using react-router.
+4. 
 
 
 19. When it is completed:
