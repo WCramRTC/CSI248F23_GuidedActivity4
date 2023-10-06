@@ -107,6 +107,7 @@ This repository is a part of CSI-248 at Renton Technical College.
 13. Similarly the createCity function will also be in App.jsx but accessible to the other pages via context.
 14. Lets first create the citiesList state and createCity functions.
 15. At the top of App.jsx add an import statement for useState and createContext.
+
 `import { useState, createContext } from "react";`
 
 16. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
