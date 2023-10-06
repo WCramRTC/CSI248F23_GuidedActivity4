@@ -77,14 +77,54 @@ This repository is a part of CSI-248 at Renton Technical College.
 12. If we navigate to /cities we will show the List page.
 13. If we navigate to /cities/create we will show the Create page.
 14. If we navigate to /cities/1 we will show the Details page
+15. Verify that these routes are working by running the app and navigating to them.
+16. `git add .`
+17. `git commit -m "Routes working"`
+18. `git push`
+
+## Create navigation and Context
+1. Create a Components folder inside of the src folder.
+2. Add a Navigation.jsx component to that folder.
+3. At its core a navbar is simply a styled list of links.
+4. We will be using the Link component from react-router-dom.
+5. Replace the code inside of Navigation.jsx with the following:
+
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/622c6c07-e3b0-4744-99c6-61cc17c54cf0)
+
+6. Notice that the to attribute of these links is the same as some of the routes you define earlier.
+7. Import Nagivation to App.jsx and render it within the browser router but before the routes.
+
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/3c12a6be-7b8d-494e-88fe-60b69538a768)
+
+8. Run the app and verify that Nagivation is working:
+
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/00bc1820-97b1-421d-bf95-c1b0b2ae773d)
+
+9. It is now time to useContext.
+10. Context is a global state container that can be used by any component without passing via props.
+11. We are going to add two things to context. The list of cities and a function for creating a new city.
+12. citiesList will be tracked by state in App.jsx but shared with the other pages via context.
+13. Similarly the createCity function will also be in App.jsx but accessible to the other pages via context.
+14. Lets first create the citiesList state and createCity functions.
+15. At the top of App.jsx add an import statement for useState and createContext.
+`import { useState, createContext } from "react";`
+
+16. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
+17. Also inside of App() and before the return statement create a function that takes a city as a parameter, assigns it an id and then uses setCitiesList to update the list.
+
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/9a7cba71-4ed8-43f9-9eff-8a395c3462a8)
 
 
 
 
-19. When it is completed:
-20. Type `git add .` to stage all updated files.
-21. Type `git commit -m "Assignment Complete"`.
-22. Type `git push`.
+
+
+
+
+20. When it is completed:
+21. Type `git add .` to stage all updated files.
+22. Type `git commit -m "Assignment Complete"`.
+23. Type `git push`.
 
 If you have any questions about this assignment please reach out to myself or our TA for this course. 
 
