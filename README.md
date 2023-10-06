@@ -69,10 +69,14 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 8. The BrowserRouter component must wrap all components that will use Routing
 9. Within the BrowserRouter we will define Routes using the Routes and Route components
+10. Reaplace the code inside of App.jsx with the following:
 
-6. Included in the repository is a cities.js file, paste the contents of that file at the top of App.jsx
-7. When complete your App.jsx should look like this. Notice that I have collapsed the cities array here, it is taking up 27 lines of code.
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/df53b001-c0a4-4f8b-8573-75d70922b219)
 
+11. We have defined 4 routes. If no route is provided we will show the Home Page.
+12. If we navigate to /cities we will show the List page.
+13. If we navigate to /cities/create we will show the Create page.
+14. If we navigate to /cities/1 we will show the Details page
 
 
 
