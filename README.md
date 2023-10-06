@@ -21,12 +21,15 @@ This repository is a part of CSI-248 at Renton Technical College.
 8. Select React as the framework
 9. Select JavaScript as the variant
 10. cd into the new project folder and run:
-11. ```npm install```
-12. ```npm install react-router-dom```
+11. `npm install`
+12. `npm install react-router-dom`
+
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/65edb0e8-a79b-4efc-9460-1c352a86061e)
+
 
 ## Creating a City List App
 
-1. Included in the repository is a cities.js file. You may either paste this into App.jsx or move this file into the project and import it into App.jsx
+1. Included in the repository is a cities.js file. Paste the contents of this file into App.jsx
 2. We are going to create seperate pages that access this cities.js file by using context.
 3. We will be routing to the seperate pages using react-router.
 4. 
