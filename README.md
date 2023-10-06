@@ -20,6 +20,8 @@ This repository is a part of CSI-248 at Renton Technical College.
 7. Name the project citylist
 8. Select React as the framework
 9. Select JavaScript as the variant
+10. cd into the new project folder and install react-router
+11. ```npm 
 
 ## Creating a City List App
 
