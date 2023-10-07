@@ -211,8 +211,17 @@ This repository is a part of CSI-248 at Renton Technical College.
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/72825268-d3c3-44a3-9c58-dabb4eab1cf2)
 
 8. Use the form to create a new City.
+
+![GA4 - Part 6 - Step 8](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/87970d1a-c418-434b-ada0-f015fdd4ee0d)
+
 9. Navigate to the Cities List and you should see your new City added to the list.
+
+![GA4 - Part 6 - Step 9](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a5d5710a-1fea-42cf-a000-9b58dc7e0c1f)
+
 10. Click on the new city and observe the Details page.
+
+![GA4 - Part 6 - Step 10](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a75ce95a-b939-45d6-af58-9784682cf880)
+
 11. Add styling to the navbar so that it looks like navigation and not simply a list of links.
 12. Style the form so that it is centered and inside of a container.
 13. You may use any css library that you wish or write your own.
