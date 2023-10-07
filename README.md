@@ -66,42 +66,42 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/c69f9fc6-9b38-46ae-ab36-e0e78d75964a)
 
-5. Take a screenshot of your browser and save it to your Screenshots folder.
+6. Take a screenshot of your browser and save it to your Screenshots folder.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/d0f34534-ac0a-40e3-84cf-b7859ca06815)
 
-6. Once you have verified they are working you can remove the components from inside of the return(). We are going to render these based on a route.
+7. Once you have verified they are working you can remove the components from inside of the return(). We are going to render these based on a route.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/375d8ab1-0e14-46bd-b012-1c017b957649)
 
-7. Lets create some Routes. We need to import some Components from react-router-dom. Add this to the top of App.jsx
+8. Lets create some Routes. We need to import some Components from react-router-dom. Add this to the top of App.jsx
 
 ```import { BrowserRouter, Route, Routes } from "react-router-dom";```
 
-8. The BrowserRouter component must wrap all components that will use Routing
-9. Within the BrowserRouter we will define Routes using the Routes and Route components
-10. Reaplace the code inside of App.jsx with the following:
+9. The BrowserRouter component must wrap all components that will use Routing
+10. Within the BrowserRouter we will define Routes using the Routes and Route components
+11. Replace the code inside of App.jsx with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/df53b001-c0a4-4f8b-8573-75d70922b219)
 
-11. We have defined 4 routes. If no route is provided we will show the Home Page.
-12. If we navigate to /cities we will show the List page. 
+12. We have defined 4 routes. If no route is provided we will show the Home Page.
+13. If we navigate to /cities we will show the List page. 
 
 ![GA4 - Part 3 - Step 12](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/53fb6172-a6e3-4274-b7a8-36ef6a3dfc02)
 
-13. If we navigate to /cities/create we will show the Create page.
+14. If we navigate to /cities/create we will show the Create page.
 
 ![GA4 - Part 3 - Step 13](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/b1a3f8d0-aa65-4e8a-9985-67a43cddc8b2)
 
-14. If we navigate to /cities/1 we will show the Details page
+15. If we navigate to /cities/1 we will show the Details page
 
 ![GA4 - Part 3 - Step 14](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/e8599f1b-ca6c-4fe2-b066-630cc8cd8daf)
 
-15. Verify that these routes are working by running the app and navigating to them.
-16. Take a screenshot of each page and save them to your screenshots folder.
-17. `git add .`
-18. `git commit -m "Routes working"`
-19. `git push`
+16. Verify that these routes are working by running the app and navigating to them.
+17. Take a screenshot of each page and save them to your screenshots folder.
+18. `git add .`
+19. `git commit -m "Routes working"`
+20. `git push`
 
 ## Create navigation and Context
 1. Create a Components folder inside of the src folder.
@@ -132,27 +132,27 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 `import { useState, createContext } from "react";`
 
-16. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
-17. Also inside of App() and before the return statement create a function that takes a city as a parameter, assigns it an id and then uses setCitiesList to update the list.
+17. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
+18. Also inside of App() and before the return statement create a function that takes a city as a parameter, assigns it an id and then uses setCitiesList to update the list.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/9a7cba71-4ed8-43f9-9eff-8a395c3462a8)
 
-18. We are now ready to create a ContextContainer. This is done using the createContext method that we imported earlier.
-19. Create a CitiesContext before the function App()
+19. We are now ready to create a ContextContainer. This is done using the createContext method that we imported earlier.
+20. Create a CitiesContext before the function App()
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/498478cf-da09-4c88-9d36-69a989f75eee)
 
-20. Our new CitiesContext is ready to be used. We need to wrap all elements that will have access to this Context in a CitiesContext.Provider component. The value attribute will be used to specify which object we would like to provide through this context.
+21. Our new CitiesContext is ready to be used. We need to wrap all elements that will have access to this Context in a CitiesContext.Provider component. The value attribute will be used to specify which object we would like to provide through this context.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/6d94b702-ea8b-4634-9fbc-f29a8b8318b1)
 
-21. We have wrapped all of our routes with our new Context and added both citiesList and createCity to that context. We now must also export the CitiesContext so that it can be imported by our other pages. Add the following to the bottom of App.jsx
+22. We have wrapped all of our routes with our new Context and added both citiesList and createCity to that context. We now must also export the CitiesContext so that it can be imported by our other pages. Add the following to the bottom of App.jsx
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/192a8746-e4cf-4373-a04c-4d03af0a7a01)
 
-22. `git add .`
-23. `git commit -m "Context added"`
-24. `git push`
+23. `git add .`
+24. `git commit -m "Context added"`
+25. `git push`
 
 ## Accessing the Context
 1. Lets work on the Details page first.
@@ -181,18 +181,18 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/403ff7bb-660b-4c84-a86e-7d31ed031375)
 
-13. Replace the List Function with the following:
+14. Replace the List Function with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/3018da43-3a6c-400d-aa5a-469729756adb)
 
-14. You should now have a functioning list page that links to the details page.
+15. You should now have a functioning list page that links to the details page.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/a4365894-31ed-49d6-b584-8495c96dcc56)
 
-15. Take a screenshot of the browser and save it to your Screenshots folder.
-16. `git add .`
-17. `git commit -m "List and Details Complete"`
-18. `git push`
+16. Take a screenshot of the browser and save it to your Screenshots folder.
+17. `git add .`
+18. `git commit -m "List and Details Complete"`
+19. `git push`
 
 ## The Create Page
 1. Our create page will allow the user to add a new city to the list.
@@ -204,28 +204,33 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/5e29b9e5-a042-4e61-95c1-be5d21023992)
 
-6. Now lets work on our handleSubmit function. This function will take in an event. The event will have the information from the form. By default events cause a page refresh which we do not want since we are handling the client side. Prevent the default refresh and then get the data from the form. We then pass the data to the createCity function and reset the form.
+7. Now lets work on our handleSubmit function. This function will take in an event. The event will have the information from the form. By default events cause a page refresh which we do not want since we are handling the client side. Prevent the default refresh and then get the data from the form. We then pass the data to the createCity function and reset the form.
 
-7. Replace the code inside of Create() with the following:
+8. Replace the code inside of Create() with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/72825268-d3c3-44a3-9c58-dabb4eab1cf2)
 
-8. Use the form to create a new City.
-9. Navigate to the Cities List and you should see your new City added to the list.
-10. Click on the new city and observe the Details page.
-11. Add styling to the navbar so that it looks like navigation and not simply a list of links.
-12. Style the form so that it is centered and inside of a container.
-13. You may use any css library that you wish or write your own.
-14. Here is an example. You do not need to match it exactly.
+9. Use the form to create a new City.
+
+![GA4 - Part 6 - Step 8](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/87970d1a-c418-434b-ada0-f015fdd4ee0d)
+
+10. Navigate to the Cities List and you should see your new City added to the list.
+
+![GA4 - Part 6 - Step 9](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a5d5710a-1fea-42cf-a000-9b58dc7e0c1f)
+
+11. Click on the new city and observe the Details page.
+
+![GA4 - Part 6 - Step 10](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a75ce95a-b939-45d6-af58-9784682cf880)
+
+12. Add styling to the navbar so that it looks like navigation and not simply a list of links.
+13. Style the form so that it is centered and inside of a container.
+14. You may use any css library that you wish or write your own.
+15. Here is an example. You do not need to match it exactly.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/2a1dc3a8-56b0-4368-b6c7-edadbfddb819)
 
-15. `git add .`
-16. `git commit -m "Assignment Complete"`
-17. `git push`
+16. `git add .`
+17. `git commit -m "Assignment Complete"`
+18. `git push`
 
 If you have any questions about this assignment please reach out to myself or our TA for this course. 
-
-
-
-Feel free to message your instructor or the TA on Canvas if you have any questions.
