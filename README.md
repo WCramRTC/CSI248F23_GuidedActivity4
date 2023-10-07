@@ -181,18 +181,18 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/403ff7bb-660b-4c84-a86e-7d31ed031375)
 
-13. Replace the List Function with the following:
+14. Replace the List Function with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/3018da43-3a6c-400d-aa5a-469729756adb)
 
-14. You should now have a functioning list page that links to the details page.
+15. You should now have a functioning list page that links to the details page.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/a4365894-31ed-49d6-b584-8495c96dcc56)
 
-15. Take a screenshot of the browser and save it to your Screenshots folder.
-16. `git add .`
-17. `git commit -m "List and Details Complete"`
-18. `git push`
+16. Take a screenshot of the browser and save it to your Screenshots folder.
+17. `git add .`
+18. `git commit -m "List and Details Complete"`
+19. `git push`
 
 ## The Create Page
 1. Our create page will allow the user to add a new city to the list.
@@ -204,37 +204,33 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/5e29b9e5-a042-4e61-95c1-be5d21023992)
 
-6. Now lets work on our handleSubmit function. This function will take in an event. The event will have the information from the form. By default events cause a page refresh which we do not want since we are handling the client side. Prevent the default refresh and then get the data from the form. We then pass the data to the createCity function and reset the form.
+7. Now lets work on our handleSubmit function. This function will take in an event. The event will have the information from the form. By default events cause a page refresh which we do not want since we are handling the client side. Prevent the default refresh and then get the data from the form. We then pass the data to the createCity function and reset the form.
 
-7. Replace the code inside of Create() with the following:
+8. Replace the code inside of Create() with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/72825268-d3c3-44a3-9c58-dabb4eab1cf2)
 
-8. Use the form to create a new City.
+9. Use the form to create a new City.
 
 ![GA4 - Part 6 - Step 8](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/87970d1a-c418-434b-ada0-f015fdd4ee0d)
 
-9. Navigate to the Cities List and you should see your new City added to the list.
+10. Navigate to the Cities List and you should see your new City added to the list.
 
 ![GA4 - Part 6 - Step 9](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a5d5710a-1fea-42cf-a000-9b58dc7e0c1f)
 
-10. Click on the new city and observe the Details page.
+11. Click on the new city and observe the Details page.
 
 ![GA4 - Part 6 - Step 10](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/a75ce95a-b939-45d6-af58-9784682cf880)
 
-11. Add styling to the navbar so that it looks like navigation and not simply a list of links.
-12. Style the form so that it is centered and inside of a container.
-13. You may use any css library that you wish or write your own.
-14. Here is an example. You do not need to match it exactly.
+12. Add styling to the navbar so that it looks like navigation and not simply a list of links.
+13. Style the form so that it is centered and inside of a container.
+14. You may use any css library that you wish or write your own.
+15. Here is an example. You do not need to match it exactly.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/2a1dc3a8-56b0-4368-b6c7-edadbfddb819)
 
-15. `git add .`
-16. `git commit -m "Assignment Complete"`
-17. `git push`
+16. `git add .`
+17. `git commit -m "Assignment Complete"`
+18. `git push`
 
 If you have any questions about this assignment please reach out to myself or our TA for this course. 
-
-
-
-Feel free to message your instructor or the TA on Canvas if you have any questions.
