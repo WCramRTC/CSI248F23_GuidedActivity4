@@ -80,7 +80,7 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 9. The BrowserRouter component must wrap all components that will use Routing
 10. Within the BrowserRouter we will define Routes using the Routes and Route components
-11. Reaplace the code inside of App.jsx with the following:
+11. Replace the code inside of App.jsx with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/df53b001-c0a4-4f8b-8573-75d70922b219)
 
@@ -132,27 +132,27 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 `import { useState, createContext } from "react";`
 
-16. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
-17. Also inside of App() and before the return statement create a function that takes a city as a parameter, assigns it an id and then uses setCitiesList to update the list.
+17. Inside of the App() function but before the return statement add the cities to a state variable called citiesList.
+18. Also inside of App() and before the return statement create a function that takes a city as a parameter, assigns it an id and then uses setCitiesList to update the list.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/9a7cba71-4ed8-43f9-9eff-8a395c3462a8)
 
-18. We are now ready to create a ContextContainer. This is done using the createContext method that we imported earlier.
-19. Create a CitiesContext before the function App()
+19. We are now ready to create a ContextContainer. This is done using the createContext method that we imported earlier.
+20. Create a CitiesContext before the function App()
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/498478cf-da09-4c88-9d36-69a989f75eee)
 
-20. Our new CitiesContext is ready to be used. We need to wrap all elements that will have access to this Context in a CitiesContext.Provider component. The value attribute will be used to specify which object we would like to provide through this context.
+21. Our new CitiesContext is ready to be used. We need to wrap all elements that will have access to this Context in a CitiesContext.Provider component. The value attribute will be used to specify which object we would like to provide through this context.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/6d94b702-ea8b-4634-9fbc-f29a8b8318b1)
 
-21. We have wrapped all of our routes with our new Context and added both citiesList and createCity to that context. We now must also export the CitiesContext so that it can be imported by our other pages. Add the following to the bottom of App.jsx
+22. We have wrapped all of our routes with our new Context and added both citiesList and createCity to that context. We now must also export the CitiesContext so that it can be imported by our other pages. Add the following to the bottom of App.jsx
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/192a8746-e4cf-4373-a04c-4d03af0a7a01)
 
-22. `git add .`
-23. `git commit -m "Context added"`
-24. `git push`
+23. `git add .`
+24. `git commit -m "Context added"`
+25. `git push`
 
 ## Accessing the Context
 1. Lets work on the Details page first.
