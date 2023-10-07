@@ -26,22 +26,31 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/65edb0e8-a79b-4efc-9460-1c352a86061e)
 
+13. Run `mkdir Screenshots` to create a Screenshots folder.
 
 ## Project Setup
 
 1. Delete the contents of the App.jsx, App.css and index.css files.
 2. Create a basic h2 inside of a fragment for App.jsx.
-3. Included in the repository is a cities.js file, paste the contents of that file at the top of App.jsx
-4. When complete your App.jsx should look like this. Notice that I have collapsed the cities array here, it is taking up 27 lines of code.
+3. Take a screenshot and save it to your screenshot folder.
+
+![GA4 - Part 2 - Step 3](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/c0492ec8-e5d7-4cea-80bf-7b5eb9ddcee9)
+
+4. Included in the repository is a cities.js file, paste the contents of that file at the top of App.jsx
+5. When complete your App.jsx should look like this. Notice that I have collapsed the cities array here, it is taking up 27 lines of code.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/76d406d5-d1a2-4ac7-b4b9-e3f8fffab910)
 
 
-5. `npm run dev`
-6. You should have just App as an H2 showing on the page.
-7. `git add .`
-8. `git commit -m "project setup complete"`
-9. `git push`
+6. In Terminal, type `npm run dev`.  Make sure you are in the citylist folder.
+7. You should have just App as an H2 showing on the page.
+
+![GA4 - Part 2 - Step 6](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/0c92e0ff-d3f5-4f1c-a0c3-dfff00ace689)
+
+8. Take a screenshot of the browser and save it to the Screenshots folder.
+9. `git add .`
+10. `git commit -m "project setup complete"`
+11. `git push`
 
 ## Lets create some pages
 
@@ -56,6 +65,8 @@ This repository is a part of CSI-248 at Renton Technical College.
 5. Inside App.jsx import each of these components and display them on the page.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/c69f9fc6-9b38-46ae-ab36-e0e78d75964a)
+
+5. Take a screenshot of your browser and save it to your Screenshots folder.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/d0f34534-ac0a-40e3-84cf-b7859ca06815)
 
@@ -74,13 +85,23 @@ This repository is a part of CSI-248 at Renton Technical College.
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/df53b001-c0a4-4f8b-8573-75d70922b219)
 
 11. We have defined 4 routes. If no route is provided we will show the Home Page.
-12. If we navigate to /cities we will show the List page.
+12. If we navigate to /cities we will show the List page. 
+
+![GA4 - Part 3 - Step 12](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/53fb6172-a6e3-4274-b7a8-36ef6a3dfc02)
+
 13. If we navigate to /cities/create we will show the Create page.
+
+![GA4 - Part 3 - Step 13](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/b1a3f8d0-aa65-4e8a-9985-67a43cddc8b2)
+
 14. If we navigate to /cities/1 we will show the Details page
+
+![GA4 - Part 3 - Step 14](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/e8599f1b-ca6c-4fe2-b066-630cc8cd8daf)
+
 15. Verify that these routes are working by running the app and navigating to them.
-16. `git add .`
-17. `git commit -m "Routes working"`
-18. `git push`
+16. Take a screenshot of each page and save them to your screenshots folder.
+17. `git add .`
+18. `git commit -m "Routes working"`
+19. `git push`
 
 ## Create navigation and Context
 1. Create a Components folder inside of the src folder.
@@ -100,13 +121,14 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/00bc1820-97b1-421d-bf95-c1b0b2ae773d)
 
-9. It is now time to useContext.
-10. Context is a global state container that can be used by any component without passing via props.
-11. We are going to add two things to context. The list of cities and a function for creating a new city.
-12. citiesList will be tracked by state in App.jsx but shared with the other pages via context.
-13. Similarly the createCity function will also be in App.jsx but accessible to the other pages via context.
-14. Lets first create the citiesList state and createCity functions.
-15. At the top of App.jsx add an import statement for useState and createContext.
+9. Take a screenshot of the browser and add it to your Screenshots folder.
+10.  It is now time to useContext.
+11. Context is a global state container that can be used by any component without passing via props.
+12. We are going to add two things to context. The list of cities and a function for creating a new city.
+13. citiesList will be tracked by state in App.jsx but shared with the other pages via context.
+14. Similarly the createCity function will also be in App.jsx but accessible to the other pages via context.
+15. Lets first create the citiesList state and createCity functions.
+16. At the top of App.jsx add an import statement for useState and createContext.
 
 `import { useState, createContext } from "react";`
 
@@ -151,10 +173,11 @@ This repository is a part of CSI-248 at Renton Technical College.
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/f571488e-9e64-447f-ada6-2d5d1eef3bbb)
 
 9. Providing a different id will give you a different city.
+10. Take a screenshot of the browser and save it to your Screenshots folder.
 
-10. Now we are ready to work on the list. This list page will show all of the cities in the list and provide a link for each city to the Details page.
-11. The List page will import useContext, CitiesContext, and Link
-12. At the top of the List page add the following:
+11. Now we are ready to work on the list. This list page will show all of the cities in the list and provide a link for each city to the Details page.
+12. The List page will import useContext, CitiesContext, and Link
+13. At the top of the List page add the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/403ff7bb-660b-4c84-a86e-7d31ed031375)
 
@@ -166,9 +189,10 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/a4365894-31ed-49d6-b584-8495c96dcc56)
 
-15. `git add .`
-16. `git commit -m "List and Details Complete"`
-17. `git push`
+15. Take a screenshot of the browser and save it to your Screenshots folder.
+16. `git add .`
+17. `git commit -m "List and Details Complete"`
+18. `git push`
 
 ## The Create Page
 1. Our create page will allow the user to add a new city to the list.
