@@ -66,42 +66,42 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/c69f9fc6-9b38-46ae-ab36-e0e78d75964a)
 
-5. Take a screenshot of your browser and save it to your Screenshots folder.
+6. Take a screenshot of your browser and save it to your Screenshots folder.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/d0f34534-ac0a-40e3-84cf-b7859ca06815)
 
-6. Once you have verified they are working you can remove the components from inside of the return(). We are going to render these based on a route.
+7. Once you have verified they are working you can remove the components from inside of the return(). We are going to render these based on a route.
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/375d8ab1-0e14-46bd-b012-1c017b957649)
 
-7. Lets create some Routes. We need to import some Components from react-router-dom. Add this to the top of App.jsx
+8. Lets create some Routes. We need to import some Components from react-router-dom. Add this to the top of App.jsx
 
 ```import { BrowserRouter, Route, Routes } from "react-router-dom";```
 
-8. The BrowserRouter component must wrap all components that will use Routing
-9. Within the BrowserRouter we will define Routes using the Routes and Route components
-10. Reaplace the code inside of App.jsx with the following:
+9. The BrowserRouter component must wrap all components that will use Routing
+10. Within the BrowserRouter we will define Routes using the Routes and Route components
+11. Reaplace the code inside of App.jsx with the following:
 
 ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/df53b001-c0a4-4f8b-8573-75d70922b219)
 
-11. We have defined 4 routes. If no route is provided we will show the Home Page.
-12. If we navigate to /cities we will show the List page. 
+12. We have defined 4 routes. If no route is provided we will show the Home Page.
+13. If we navigate to /cities we will show the List page. 
 
 ![GA4 - Part 3 - Step 12](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/53fb6172-a6e3-4274-b7a8-36ef6a3dfc02)
 
-13. If we navigate to /cities/create we will show the Create page.
+14. If we navigate to /cities/create we will show the Create page.
 
 ![GA4 - Part 3 - Step 13](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/b1a3f8d0-aa65-4e8a-9985-67a43cddc8b2)
 
-14. If we navigate to /cities/1 we will show the Details page
+15. If we navigate to /cities/1 we will show the Details page
 
 ![GA4 - Part 3 - Step 14](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/90283966/e8599f1b-ca6c-4fe2-b066-630cc8cd8daf)
 
-15. Verify that these routes are working by running the app and navigating to them.
-16. Take a screenshot of each page and save them to your screenshots folder.
-17. `git add .`
-18. `git commit -m "Routes working"`
-19. `git push`
+16. Verify that these routes are working by running the app and navigating to them.
+17. Take a screenshot of each page and save them to your screenshots folder.
+18. `git add .`
+19. `git commit -m "Routes working"`
+20. `git push`
 
 ## Create navigation and Context
 1. Create a Components folder inside of the src folder.
