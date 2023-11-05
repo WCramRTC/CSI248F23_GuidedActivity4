@@ -24,7 +24,7 @@ This repository is a part of CSI-248 at Renton Technical College.
 11. `npm install`
 12. `npm install react-router-dom`
 
-![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/65edb0e8-a79b-4efc-9460-1c352a86061e)
+![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity4/assets/102991550/65edb0e8-a79b-4efc-9460-1c352a86061e.png)
 
 13. Run `mkdir Screenshots` to create a Screenshots folder.
 
